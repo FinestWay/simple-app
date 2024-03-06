@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Simple App using nodejs, expressjs and Angularjs</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body ng-app>
-    <div>
-        <label for="name">Enter Your Name:</label>
-        <input type="text" ng-model="name" id="name" placeholder="Enter Your Name">
-        <p>{{name}}</p>
-    </div>
+    <section id="first">
+        <h1>Below is the Simple Input Taking Process</h1>
+        <div>
+            <label for="name">Enter Your Name:</label>
+            <input type="text" ng-model="name" id="name" placeholder="Enter Your Name">
+            <p>Hello, {{name}}</p>
+        </div>
+    </section>
+
+    <div class="horizontal"></div>
 </body>
 </html>

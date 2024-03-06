@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="index.js">
 </head>
 <body ng-app>
-    <section id="first">
-        <h1>Below is the Simple Input Taking Process</h1>
-        <div>
-            <label for="name">Enter Your Name:</label>
-            <input type="text" ng-model="name" id="name" placeholder="Enter Your Name">
-            <p>Hello, {{name}}</p>
-        </div>
-    </section>
-
+    <fieldset>
+        <legend><h2>Simple Input Taking Process</h2></legend>
+        <section id="first">
+            <div>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" ng-model="name" id="name" placeholder="Enter Your Name">
+                <p>Hello, {{name}}</p>
+            </div>
+        </section>
+    </fieldset>
     <div class="horizontal"></div>
 </body>
 </html>
